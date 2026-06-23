@@ -1,0 +1,237 @@
+/* ==================================================
+   GLOBAL STYLING (Applied to All Pages)
+================================================== */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* ==================================================
+   HEADER SECTION
+   (Home, Education, Experience, Projects)
+================================================== */
+
+header{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+header h1{
+    font-size: 40px;
+    color: #1f4e79;
+}
+
+header p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* ==================================================
+   NAVIGATION BAR
+   (Home, Education, Experience, Projects)
+================================================== */
+
+nav{
+    margin: 15px 0;
+    padding: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #1f4e79;
+    font-weight: bold;
+    margin: 0 12px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    background-color: #1f4e79;
+    color: white;
+}
+
+/* ==================================================
+   MAIN CONTENT CARDS
+   (Sections, Main Content, Footer)
+================================================== */
+
+section,
+main,
+footer{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+/* ==================================================
+   HEADINGS
+   (All Pages)
+================================================== */
+
+h2{
+    color: #1f4e79;
+    margin-bottom: 15px;
+}
+
+h3{
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+h4{
+    margin-bottom: 10px;
+}
+
+/* ==================================================
+   LISTS
+   (Skills, Education, Experience, Projects)
+================================================== */
+
+ul{
+    padding-left: 25px;
+}
+
+li{
+    margin-bottom: 8px;
+}
+
+/* ==================================================
+   PARAGRAPHS
+   (All Pages)
+================================================== */
+
+p{
+    margin-bottom: 12px;
+}
+
+/* ==================================================
+   GENERAL LINKS
+   (All Pages)
+================================================== */
+
+a{
+    color: #0d6efd;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* ==================================================
+   PROFILE IMAGE
+   (Home Page & Education Page)
+================================================== */
+
+img{
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 3px solid #1f4e79;
+}
+
+.profile-pic{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #1f4e79;
+    margin-bottom: 15px;
+}
+
+/* ==================================================
+   BUTTON STYLE LINKS
+   (Featured Project & GitHub Links)
+================================================== */
+
+section a,
+footer a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 18px;
+    background-color: #1f4e79;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section a:hover,
+footer a:hover{
+    background-color: #0d6efd;
+}
+
+/* ==================================================
+   HOME PAGE - SKILLS SECTION
+================================================== */
+
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.skill{
+    background-color: #1f4e79;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* ==================================================
+   HOME PAGE - FEATURED PROJECT CARD
+================================================== */
+
+.project-card{
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fafafa;
+}
+
+/* ==================================================
+   HORIZONTAL LINE
+   (All Pages)
+================================================== */
+
+hr{
+    margin: 20px 0;
+}
+
+/* ==================================================
+   MOBILE RESPONSIVE DESIGN
+   (All Pages)
+================================================== */
+
+@media(max-width:768px){
+
+    body{
+        padding: 10px;
+    }
+
+    header h1{
+        font-size: 30px;
+    }
+
+    nav a{
+        display: block;
+        margin: 10px 0;
+    }
+
+    img{
+        height: 100px;
+    }
+}
